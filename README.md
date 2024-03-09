@@ -51,4 +51,23 @@ Follow these steps to set up and deploy the Nginx application using Jenkins:
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com/aymenzarour/nginx-deployment-using-jenkins.git
+   ```
+2. **Configure Jenkins:**
+
+- Create a Jenkins pipeline job.
+- Set up necessary credentials for GitHub and Docker Hub.
+- Define the pipeline script using the provided Jenkinsfile.
+
+3. **Run the Jenkins Pipeline:**
+
+- Trigger the Jenkins pipeline job to initiate the deployment process.
+
+4. **Access the Nginx Web Page:**
+
+- Once the deployment is successful, access the Nginx web page using the defined Ingress host (`web.local.com` in this case).
+
+***Notes***
+- Ensure that Kubernetes is properly configured and accessible from the Jenkins environment.
+- Update the Ingress host in the `deploymentservice.yaml` file to match your desired domain.
+- Customize the HTML, CSS, and Nginx configurations based on your application requirements.
 
