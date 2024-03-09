@@ -66,7 +66,7 @@ Follow these steps to set up and deploy the Nginx application using Jenkins:
 
 - Once the deployment is successful, access the Nginx web page using the defined Ingress host (`web.local.com` in this case).
 
-###Notes
+### Notes
 - Ensure that Kubernetes is properly configured and accessible from the Jenkins environment.
 - Update the Ingress host in the `deploymentservice.yaml` file to match your desired domain.
 - Customize the HTML, CSS, and Nginx configurations based on your application requirements.
