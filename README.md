@@ -7,13 +7,13 @@ This project automates the deployment of an Nginx web server on Kubernetes using
 ### Project Structure
 
 nginx-deployment-using-jenkins
-├── deploymentservice.yaml
-├── Dockerfile
-├── index.html
-├── Jenkinsfile
-├── nginx.conf
-├── README.md
-└── styles.css
+- deploymentservice.yaml
+- Dockerfile
+- index.html
+- Jenkinsfile
+- nginx.conf
+- README.md
+- styles.css
 
 
 ### Docker Configuration (Dockerfile)
