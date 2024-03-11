@@ -16,7 +16,7 @@ pipeline {
                 branches: [[name: 'main']],  
                 doGenerateSubmoduleConfigurations: false, 
                 userRemoteConfigs: [[
-                    credentialsId: 'github-tockens', 
+                    credentialsId: 'github-tokens', 
                     url: 'https://github.com/aymenzarour/nginx-deployment-using-jenkins.git'
                 ]]
             ])
